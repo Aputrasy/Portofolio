@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en" class="max-width-d">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>Syukur Ridhotullah Aputra</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Retrina Group" />
+    <style>
+      .formatted-image {
+        width: 100%;
+        max-width: 130px;
+        /* Atur lebar maksimal sesuai kebutuhan */
+        height: auto;
+        /* Tinggi otomatis agar proporsional */
+        max-height: 150px;
+        object-fit: cover;
+        /* Mengatur agar gambar sesuai dengan elemen */
+        display: block;
+        /* Mengatur gambar menjadi block untuk layout */
+        margin: 0 auto;
+        /* Mengatur margin agar gambar berada di tengah */
+      }
+    </style>
+    <link rel="shortcut icon" href="assets/img/favicon.png" />
+    <!-- Google Fonts -->
+    <link
+      href="assets/fonts/css6139.css?family=Muli:300,400,600,700"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/fonts/css6109.css?family=Poppins:400,500,600,700"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="assets/css/bootstrap-icons.css" />
+    <!-- Malihu Jquery Custom ScrollBar Css -->
+    <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.css" />
+    <!-- Animate Css -->
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <!-- Swiper Css -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <!-- Magnific Popup Css -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <!--  Custom Style Css  -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!--  Color Css  -->
+    <link rel="stylesheet" href="assets/colors/golden.css" id="option-color" />
+  </head>
+
+  <body onload="hitungUmur()" class="dark-arshia max-width-d">
+    <div id="line-loader">
+      <div class="middle-line"></div>
+    </div>
+    <!--   Menu Overlay Mobile -->
+    <div class="menu-overlay d-none"></div>
+
+    <!--   Right Side Start  -->
+    <div class="right-side d-none d-lg-block">
+      <div id="date"></div>
+      <div class="social-box">
+        <div class="follow-label">
+          <span>Follow Me</span>
+        </div>
+        <div class="social d-none d-lg-block">
+          <a href="https://wa.me/6283108573458" target="_blank">
+            <i class="bi bi-whatsapp"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/syukur-ridhotullah-aputra-311097/"
+            target="_blank"
+          >
+            <i class="bi bi-linkedin"></i>
+          </a>
+        </div>
+      </div>
+      <div class="next-prev-page">
+        <button type="button" class="prev-page bg-base-color hstack">
+          <i class="bi bi-chevron-compact-up mx-auto"></i>
+        </button>
+        <button type="button" class="next-page bg-base-color mt-3 hstack">
+          <i class="bi bi-chevron-compact-down mx-auto"></i>
+        </button>
+      </div>
+    </div>
+    <!--  Right Side End  -->
+
+    <!--  Left Side Start  -->
+    <div class="left-side nav-close">
+      <div class="menu-content-align">
+        <div class="left-side-image">
+          <img
+            src="assets/File Syukur/SyukurRA.jpg"
+            class="formatted-image"
+            alt="foto ukuran laptop"
+          />
+        </div>
+        <h1 class="mt-1">Syukur</h1>
+        <a
+          class="download-cv primary-button d-none d-lg-inline-block"
+          target="_blank"
+          href="assets/File Syukur/CV Syukur Ridhotullah Aputra.pdf"
+          >Download CV</a
+        >
+        <div class="container d-lg-none d-inline-block">
+          <div class="row">
+            <div class="col-12 text-center">
+              <p class="text-muted mb-0">Full Stack Developer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu-align">
+        <ul class="list-group menu text-center" id="menu">
+          <li class="list-group-item">
+            <a href="#hero">
+              <i class="bi bi-house"></i>
+              <span>home</span>
+            </a>
+          </li>
+          <li class="list-group-item">
+            <a href="#about" class="custom-btn">
+              <i class="bi bi-person"></i>
+              <span>about</span>
+            </a>
+          </li>
+          <li class="list-group-item">
+            <a href="#resume">
+              <i class="bi bi-clipboard-check"></i>
+              <span>resume</span>
+            </a>
+          </li>
+          <li class="list-group-item">
+            <a href="#portfolio">
+              <i class="bi bi-collection"></i>
+              <span>works</span>
+            </a>
+          </li>
+          <li class="list-group-item">
+            <a href="#contact">
+              <i class="bi bi-geo-alt"></i>
+              <span>contact</span>
+            </a>
+          </li>
+        </ul>
+        <div class="menu-footer">
+          <a
+            class="download-cv primary-button mt-3 mb-4 d-lg-none"
+            href="javascript:void(0);"
+            >Download CV</a
+          >
+          <div class="social d-lg-none d-block">
+            <a
+              href="https://wa.me/6283108573458"
+              target="_blank"
+              class="d-inline-block"
+            >
+              <i class="bi bi-whatsapp"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/syukur-ridhotullah-aputra-311097/"
+              target="_blank"
+            >
+              <i class="bi bi-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  Left Side End  -->
+    <main id="main" class="main-2">
+      <!--  Hero Start  -->
+      <section id="hero" class="section hero w-100">
+        <img class="extend-icon" src="assets/img/responsive-dark.png" alt="/" />
+        <div class="hero-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 text-center text-lg-start">
+                <div class="hero-image d-inline-block d-lg-none">
+                  <img
+                    src="assets/File Syukur/Syukur Ridhotullah Aputra.jpg"
+                    alt="/"
+                  />
+                </div>
+                <div
+                  class="hero-content mt-4 mx-auto mx-lg-0 text-lg-left mt-lg-none"
+                >
+                  <!--<p class="base-color">Full Stack Developer</p>-->
+                  <h2>
+                    Hello , I’m
+                    <span class="base-color">Syukur Ridhotullah Aputra </span
+                    ><br />Full Stack Developer
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-footer d-block d-lg-none">
+          <a
+            class="download-cv primary-button mt-3 mb-4 d-lg-none"
+            href="javascript:void(0);"
+            >Download CV</a
+          >
+          <div class="social d-lg-none mb-4 d-block">
+            <a
+              href="https://wa.me/6283108573458"
+              target="_blank"
+              class="d-inline-block"
+            >
+              <i class="bi bi-whatsapp"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/syukur-ridhotullah-aputra-311097/"
+              target="_blank"
+            >
+              <i class="bi bi-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!--  Hero End  -->
+
+      <!--  About Start  -->
+      <section id="about" class="section about">
+        <div class="container">
+          <!-- Introducce Me -->
+          <div class="about-boxes">
+            <div class="row">
+              <div class="col-lg-5">
+                <div class="about-img">
+                  <img
+                    src="assets/File Syukur/Syukur Ridhotullah Aputra.jpg"
+                    alt="/"
+                  />
+                  <div class="border-img"></div>
+                </div>
+              </div>
+              <div class="col-lg-7">
+                <div class="about-description">
+                  <h3 class="mb-3">
+                    PROFESSIONAL SUMMARY
+                  </h3>
+                  <p class="about-text" style="text-align: justify;">
+                    Experienced Software Engineer with over 3+ years of experience in developing websites and applications using the latest technologies. Proven ability to troubleshoot software issues and develop creative solutions. Skilled in Big Data technologies, including IBM, SQL Server, and more. A results-driven professional with a strong track record in analyzing project requirements and designing effective software solutions. An out-of-the-box thinker and problem solver, dedicated to improving performance. Works well in teams and consistently delivers tasks on time.
+                  </p>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6">
+                    <ul class="list-unstyled personal-info">
+                      <li>Phone : <small>083108573458</small></li>
+                      <li>
+                        City : <small> Bekasi, Jawa Barat, Indonesia</small>
+                      </li>
+                      <li>Freelance : <small>Available</small></li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-6">
+                    <ul class="list-unstyled personal-info">
+                      <li>Age : <small id="umur"></small></li>
+                      <li>
+                        Degree :
+                        <small>Bachelor of Applied Computer Science</small>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-12">
+                    <a href="#contact" class="to-contact primary-button mt-2"
+                      >Hire me</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="count-up" class="count-up text-center box-border">
+          </div>
+          <!--  Skillbar  -->
+          <div class="row mt-12 skills">
+            <div class="col-lg-12">
+              <div class="row justify-content-center">
+                <div class="col-lg-6 text-center">
+                  <h3 class="subtitle">Skills</h3>
+                </div>
+              </div>
+                <div id="skills">
+                  <div class="row">
+                      <div class="col-md-4">
+                          <ul class="knowledge-item">
+                              <li>.NET Developer</li>
+                              <li>ASP.NET (MVC, Core 8 & 9, WEB API) dan ASPX</li>
+                              <li>Java</li>
+                              <li>SQL Server</li>
+                              <li>MySQL</li>
+                              <li>IBM D2 A400 / AS400</li>
+                              <li>Big Data</li>
+                              <li>Laravel</li>
+                          </ul>
+                      </div>
+                      <div class="col-md-4">
+                          <ul class="knowledge-item">
+                              <li>Problem Solving</li>
+                              <li>Oracle DB</li>
+                              <li>Desktop Apps (VB.NET, Windows Form Application C#)</li>
+                              <li>Tailwind CSS</li>
+                              <li>Bootstrap 5</li>
+                              <li>JavaScript</li>
+                              <li>Python</li>
+                              <li>Desain (Blender, Zmodeler 3D, CorelDRAW)</li>
+                          </ul>
+                      </div>
+                      <div class="col-md-4">
+                          <ul class="knowledge-item">
+                              <li>Power Apps</li>
+                              <li>Power Automate</li>
+                              <li>SharePoint</li>
+                              <li>Java NetBeans</li>
+                              <li>Business Analysis</li>
+                              <li>Requirements Analysis</li>
+                              <li>Java Server Pages (JSP)</li>
+                              <li>Inventory Control</li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  About End  -->
+      <!--  Resume Start  -->
+      <section id="resume" class="section">
+        <div class="container">
+          <!--  Resume  -->
+          <div class="resume">
+            <!--  TimeLine Education  -->
+            <div class="boxes">
+              <h3 class="subtitle">Education</h3>
+              <div class="row vertical-line">
+                <!--  Item 03  -->
+                <div class="col-md-6">
+                  <div class="timeline-box">
+                    <div class="time-line-header">
+                      <p class="timeline-year">2017 - 2021</p>
+                      <h6 class="timeline-title">
+                        Jakarta State Polytechnic
+                      </h6>
+                    </div>
+                    <div class="timeline-content">
+                      <p>
+                        Bachelor of Science in Information Technology, 3.17/4.00
+                        <ol>
+                          <li>3rd Place in the Innovation Creation Competition Category at the "TIK PNJ" Dies Natalist Activity - 2019</li>
+                          <li>3rd Place in the Innovation Creation Competition Category at the "TIK PNJ" Dies Natalist Activity - 2019</li>
+                          <li>3rd Place in the Innovation Creation Competition Category at the "TIK PNJ" Dies Natalist Activity - 2019</li>
+                          <li>ASEAN DATA SCIENCE EXPLORERS at PNJ 2020</li>
+                          <li>5th of Game Application Development State University of Surabaya 2019</li>
+                          <li>5th of Hackathon Mobile Development (NEXTDEV) at UNPAD 2019</li>
+                        </ol>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="timeline-box">
+                    <div class="time-line-header">
+                      <p class="timeline-year">2016 - 2019</p>
+                      <h6 class="timeline-title">University of Indonesia</h6>
+                    </div>
+                    <div class="timeline-content">
+                      <p>
+                        Diploma in DNIIT (Software Engineering), 3.21/4.00
+                        <ol>
+                          <li>Finalish of Hackathon Eka Paksi Cipta Yudha 2016</li>
+                          <li>Finalish of COMPFEST (INDIE GAME IGNITE) 2018 Competition</li>
+                          <li>Finalish of Game Application Development MAGE4 at Sepuluh November Institute of Technology (ITS).</li>
+                        </ol>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--  TimeLine Experience  -->
+            <div class="boxes mt-4 mb-3">
+              <h3 class="subtitle">Experience</h3>
+              <div class="row">
+                <!--   Item 01   -->
+                <div class="col-md-12">
+                  <div class="timeline-box">
+                    <div class="time-line-header">
+                      <p class="timeline-year">Okt 2024 - Present</p>
+                      <h6 class="timeline-title">
+                        Information Technology SPV | <strong>PT. Tira Cipta Logistic (PT. Tigaraksa Satria, Tbk)</strong>
+                      </h6>
+                    </div>
+                    <div class="timeline-content">
+                      <p>PT Tira Cipta Logistik (TCL) is a leading player in the cold chain logistics industry, specializing in storage, transportation, and additional services for temperature-sensitive products. TCL ensures safe and efficient handling of goods, catering to various industries such as food, pharmaceuticals, logistics, and agriculture.</p>
+                        <ol>
+                          <li>PT Tira Cipta Logistik (TCL) is a leading player in the cold chain logistics industry, specializing in storage, transportation, and additional services for temperature-sensitive products. TCL ensures safe and efficient handling of goods, catering to various industries such as food, pharmaceuticals, logistics, and agriculture</li>
+                          <li>Designing the database structure using SQL Server, developing the front-end according to client requirements and data, and ensuring optimal integration with Web API to support seamless system operations based on client requests</li>
+                          <li>Responsible for managing the software development team and ensuring that information technology systems operate optimally to support logistics operations.</li>
+                          <li>Develop team strategies, allocate tasks, and ensure the quality of projects and applications delivered. Conduct regular system audits to identify and address potential security risks.</li>
+                          <li>Coordinate with other IT teams to ensure system stability and performance. Research and implement the latest technologies to enhance efficiency in logistics operations</li>
+                          <li>Analyze system performance and propose improvements or enhancements based on business needs.</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-md-12">
+                  <div class="timeline-box">
+                    <div class="time-line-header">
+                      <p class="timeline-year">Feb 2022 – Oct 2024</p>
+                      <h6 class="timeline-title">
+                        Software Engineer Inventory Control | <strong>PT. Mattel Indonesia</strong>
+                      </h6>
+                    </div>
+                    <div class="timeline-content">
+                      <p>PT. Mattel Indonesia is a subsidiary of the leading toy company, Mattel Inc., based in the United States. 
+                        PT. Mattel Indonesia focuses on producing various types of toys, especially toys for children such as Barbie dolls, Hot Wheels, and various other creative toys.</p>
+                        <ol>
+                          <li>Project websites using ASP.NET MVC & ASP.NET Core 8 example: Inventory control system, Inventory Molding, Problem Form, PIA (Physical Inventory Adjustment), Auditor System IC, Scanner data LKP, Approval Payment Requisition PTMI Etc.</li>
+                          <li>Project VB.Net example: Print data LKP and get data from IBM D2 A400</li>
+                          <li>Maintenance VB Macro Excel for print LKP data Production.</li>
+                          <li>Database: SQL Server, MySQL, SharePoint, IBM D2 A400</li>
+                          <li>CSS, JavaScript, Bootstrap, Tailwind, Power Automate, PowerApps</li>
+                          <li>CSS, JavaScript, Bootstrap, Tailwind, Power Automate, PowerApps</li>
+                          <li>Business Analysis, Requirements Analysis, Java Server Pages (JSP), project management</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="timeline-box">
+                    <div class="time-line-header">
+                      <p class="timeline-year">Sept 2020 – Des 2020</p>
+                      <h6 class="timeline-title">
+                        Intenship Full Stack Dev | <strong>Dinas Kearsipan dan Perpustakaan Depok</strong>
+                      </h6>
+                    </div>
+                    <div class="timeline-content" style="max-height: 200px; overflow: auto;">
+                      <p>The government institution responsible for managing and maintaining archives and libraries in the city of Depok.</p>
+                        <ol>
+                          <li>Analysis of the flow program website Archive</li>
+                          <li>Full Stack Developer Website Archive Laravel 8, Database Mysql</li>
+                          <li><strong>Fitur: </strong>Document Destruction, Historical Archive Preservation, Document Management, Archival Maintenance, Retrieval and Access, Classification Organization, System Development, Exc.</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="timeline-box">
+                    <div class="time-line-header">
+                      <p class="timeline-year">Sept 2020 – Nov 2020</p>
+                      <h6 class="timeline-title">
+                        Intenship Full Stack Dev | Kementrian Pendidikan dan Budaya Jakarta
+                      </h6>
+                    </div>
+                    <div class="timeline-content" style="max-height: 200px; overflow: auto;">
+                      <p>The Ministry of Education and Culture (Kemdikbud) is a government institution in Indonesia responsible for education and cultural policies in the country.</p>
+                        <ol>
+                          <li>Analysis of the flow program website Meeting Room Approval</li>
+                          <li>Full Stack Developer Website Meeting Room Approval Laravel 8, Database Mysql</li>
+                          <li>Fitur:
+                          Meeting Room Request,Availability Calendar,Automatic Approval,Email Notifications,Reservation Management,Historical Logs,Availability Alerts,Capacity Management,Approval History,External Calendar Integration,Reporting and Analytics,Access Security,Reminders and Confirmations,Priority Management,Search Filters</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  Resume End  -->
+      <!--  Portfolio Start  -->
+      <section id="portfolio" class="section portfolio">
+        <div class="container">
+          <div class="heading-meta-container">
+            <h2 class="heading-title">Portfolio</h2>
+            <h6 class="description">See My Ausome Work</h6>
+          </div>
+          <div class="row">
+            <!--   Portfolio Filters   -->
+            <ul
+              id="portfolio-filter"
+              class="list-inline col-lg-12 portfolio-filter text-center"
+            >
+              <li class="list-inline-item">
+                <a href="javascript:void(0)" data-filter="*" class="active"
+                  >All</a
+                >
+              </li>
+              <li class="list-inline-item">
+                <a href="javascript:void(0)" data-filter=".webdesign"
+                  >Web Design</a
+                >
+              </li>
+              <li class="list-inline-item">
+                <a href="javascript:void(0)" data-filter=".mobiledesign"
+                  >Mobile Design</a
+                >
+              </li>
+              <li class="list-inline-item">
+                <a href="javascript:void(0)" data-filter=".sound">Sound</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="javascript:void(0)" data-filter=".graphic">Graphic</a>
+              </li>
+            </ul>
+          </div>
+          <div class="portfolio-items border-line-v row">
+            <!-- Item 01 -->
+            <div class="col-md-6 col-lg-4 portfolio-item sound">
+              <div class="portfolio-box">
+                <div class="portfolio-image">
+                  <img
+                    src="assets/img/webdesigner/portfolio-item1.jpg"
+                    alt="/"
+                  />
+                  <div class="portfolio-icon">
+                    <a
+                      href="../../../../w.soundcloud.com/player/index79d2.html?url=https%3A//api.soundcloud.com/tracks/221650664&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"
+                      class="portfolio-magnific mfp-iframe"
+                    >
+                      <i class="bi bi-music-note-beamed"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <h6 class="blog-header">Tak photo on the waves</h6>
+                  <p class="mb-0">image</p>
+                </div>
+              </div>
+            </div>
+            <!-- Item 02 -->
+            <div class="col-md-6 col-lg-4 portfolio-item sound">
+              <div class="portfolio-box">
+                <div class="portfolio-image">
+                  <img
+                    src="assets/img/webdesigner/portfolio-item2.jpg"
+                    alt="/"
+                  />
+                  <div class="portfolio-icon">
+                    <a
+                      href="../../../../player.vimeo.com/video/158284739.html"
+                      class="portfolio-magnific mfp-iframe"
+                    >
+                      <i class="bi bi-camera-video"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <h6 class="blog-header">Tak photo on the waves</h6>
+                  <p class="mb-0">image</p>
+                </div>
+              </div>
+            </div>
+            <!-- Item 03 -->
+            <div class="col-md-6 col-lg-4 portfolio-item sound">
+              <div class="portfolio-box">
+                <div class="portfolio-image">
+                  <img
+                    src="assets/img/webdesigner/portfolio-item3.jpg"
+                    alt="/"
+                  />
+                  <div class="portfolio-icon">
+                    <a href="portfolio-01-dark.html" class="ajax-page-load">
+                      <i class="bi bi-file-earmark-text"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <h6 class="blog-header">Tak photo on the waves</h6>
+                  <p class="mb-0">image</p>
+                </div>
+              </div>
+            </div>
+            <!-- Item 04 -->
+            <div
+              class="col-md-6 col-lg-4 portfolio-item mobiledesign webdesign"
+            >
+              <div class="portfolio-image">
+                <img src="assets/img/webdesigner/portfolio-item4.jpg" alt="/" />
+                <div class="portfolio-icon">
+                  <a
+                    href="../../../../w.soundcloud.com/player/index79d2.html?url=https%3A//api.soundcloud.com/tracks/221650664&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"
+                    class="portfolio-magnific mfp-iframe"
+                  >
+                    <i class="bi bi-music-note-beamed"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="portfolio-content">
+                <h6 class="blog-header">Detailed Project 2</h6>
+                <p class="mb-0">image</p>
+              </div>
+            </div>
+            <!-- Item 05 -->
+            <div class="col-md-6 col-lg-4 portfolio-item mobiledesign sound">
+              <div class="portfolio-image">
+                <img src="assets/img/webdesigner/portfolio-item5.jpg" alt="/" />
+                <div class="portfolio-icon">
+                  <a
+                    href="../../../../player.vimeo.com/video/158284739.html"
+                    class="portfolio-magnific mfp-iframe"
+                  >
+                    <i class="bi bi-camera-video"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="portfolio-content">
+                <h6 class="blog-header">Detailed Project 2</h6>
+                <p class="mb-0">image</p>
+              </div>
+            </div>
+            <!-- Item 06 -->
+            <div class="col-md-6 col-lg-4 portfolio-item mobiledesign">
+              <div class="portfolio-image">
+                <img src="assets/img/webdesigner/portfolio-item6.jpg" alt="/" />
+                <div class="portfolio-icon">
+                  <a href="portfolio-01-dark.html" class="ajax-page-load">
+                    <i class="bi bi-file-earmark-text"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="portfolio-content">
+                <h6 class="blog-header">Detailed Project 2</h6>
+                <p class="mb-0">image</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  Portfolio End  -->
+      <!-- Contact Start -->
+      <section id="contact" class="section contact w-100">
+        <div class="container">
+          <h3 class="subtitle">Get in Touch</h3>
+          <!-- Map -->
+          <div class="row mt-12">
+            <div class="col-lg-12">
+              <div data-location-icon="assets/img/location-map.png">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3588.1758820841337!2d107.04120297453339!3d-6.385816862460191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e699781c5b46093%3A0x88e54bce6258806a!2sHarvest%20City%2C%20Sakura%20Emiko%20blok%20SE7!5e1!3m2!1sid!2sid!4v1739687493162!5m2!1sid!2sid"
+                  width="900"
+                  height="450"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--  Main End  -->
+
+    <!--  Mobile Next and Prev Button Start -->
+    <div class="next-prev-page d-block d-lg-none">
+      <button type="button" class="prev-page bg-base-color hstack">
+        <i class="bi bi-chevron-compact-left mx-auto"></i>
+      </button>
+      <button type="button" class="next-page bg-base-color mt-1 mt-lg-3 hstack">
+        <i class="bi bi-chevron-compact-right mx-auto"></i>
+      </button>
+    </div>
+    <!--  Mobile Next and Prev Button End -->
+
+    <!--  Navbar Button Mobile Start -->
+    <div class="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <!--  Navbar Button Mobile End -->
+
+    <!--  Background Shapes Start  -->
+    <div class="area">
+      <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <!--  Background Shapes End  -->
+
+    <!--  Color Pallet  -->
+    <div id="color-switcher" class="color-switcher">
+      <div class="text-center color-pallet hide">
+        <h6 class="theme-skin-title">Light &amp; Dark</h6>
+        <ul class="color-scheme list-inline">
+          <li class="list-inline-item">
+            <a href="javascript:void(0)" class="light-scheme"
+              ><i class="bi bi-brightness-high"></i> Light</a
+            >
+          </li>
+          <li class="list-inline-item">
+            <a href="javascript:void(0)" class="dark-scheme active"
+              ><i class="bi bi-moon"></i> Dark</a
+            >
+          </li>
+        </ul>
+        <h6 class="text-center mt-3 text-dark">Select your color</h6>
+        <ul class="pattern">
+          <li>
+            <a class="color1" href="javascript:void(0)"></a>
+          </li>
+          <li>
+            <a class="color2" href="javascript:void(0)"></a>
+          </li>
+          <li>
+            <a class="color3" href="javascript:void(0)"></a>
+          </li>
+          <li>
+            <a class="color4" href="javascript:void(0)"></a>
+          </li>
+          <li>
+            <a class="color5" href="javascript:void(0)"></a>
+          </li>
+          <li>
+            <a class="color6" href="javascript:void(0)"></a>
+          </li>
+          <li>
+            <a class="color7" href="javascript:void(0)"></a>
+          </li>
+          <li>
+            <a class="color8" href="javascript:void(0)"></a>
+          </li>
+          <li>
+            <a class="color9" href="javascript:void(0)"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Mouase Magic Cursor Start -->
+    <div class="m-magic-cursor mmc-outer"></div>
+    <div class="m-magic-cursor mmc-inner"></div>
+    <!-- Mouase Magic Cursor End -->
+
+    <!--  JavaScripts  -->
+    <!--  Jquery 3.4.1  -->
+    <script
+      data-cfasync="false"
+      src="assets/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <!--  Bootstrap Js  -->
+    <script src="assets/js/bootstrap.js"></script>
+    <!--  Malihu ScrollBar Js  -->
+    <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <!--  CountTo Js  -->
+    <script src="assets/js/jquery.countTo.js"></script>
+    <!--  Swiper Js  -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!--  Isotope Js  -->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <!--  Magnific Popup Js  -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- Map Js -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRemITiP7JRWpZwLhVt-T2x5MeUFE2KWs&callback=mapInit"
+      async
+      defer
+    ></script>
+    <!--  Arshia Js  -->
+    <script src="assets/js/arshia.js"></script>
+    <script>
+      function hitungUmur() {
+        var tanggalLahir = new Date(1997, 9, 31); // Tanggal 31 Oktober 1997 (bulan dimulai dari 0)
+        var sekarang = new Date();
+
+        // Menghitung umur berdasarkan tahun
+        var umur = sekarang.getFullYear() - tanggalLahir.getFullYear();
+
+        // Memeriksa jika ulang tahun belum terjadi tahun ini
+        var bulanSekarang = sekarang.getMonth();
+        var bulanLahir = tanggalLahir.getMonth();
+
+        var hariSekarang = sekarang.getDate();
+        var hariLahir = tanggalLahir.getDate();
+
+        if (
+          bulanSekarang < bulanLahir ||
+          (bulanSekarang === bulanLahir && hariSekarang < hariLahir)
+        ) {
+          umur--;
+        }
+
+        // Menampilkan umur
+        document.getElementById("umur").textContent = umur;
+      }
+    </script>
+  </body>
+</html>
